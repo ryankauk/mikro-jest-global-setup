@@ -12,7 +12,7 @@ describe("mikro jest", () => {
   //  await RequestContext.createAsync({ fork() {} } as any, async () => {
   //    process.domain = null;
   //  });
-  });
+  // });
   test("test embedded model with property and hyphens", async () => {
     const model = new AnyModel();
     await orm.em.persistAndFlush(model);
